@@ -1,0 +1,5 @@
+---
+- name: Install Software
+  hosts: localhost
+  roles:
+    - selenium_role
