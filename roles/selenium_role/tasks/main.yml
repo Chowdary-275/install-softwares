@@ -1,0 +1,5 @@
+---
+- name: install selenium
+  get_url:
+    url: https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.2.0/selenium-server-4.2.2.jar
+    dest: /root/install-softwares
