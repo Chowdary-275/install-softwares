@@ -1,0 +1,5 @@
+---
+- name: Install docker with dependencies
+  hosts: localhost
+  roles:
+    - docker_role
